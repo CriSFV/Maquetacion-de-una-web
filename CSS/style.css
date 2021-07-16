@@ -1,0 +1,34 @@
+:root {
+  --color-blanco: var(##ffffff);
+  --color-negro: var(#000000);
+  --color-verde: var(#099d8d);
+  --color-gris: var(#54585a);
+  --color-gris-claro: var(#b8b8b9);
+
+  /*letra rubik-medium: en header, h1, h2 */
+  --letra-rubik-medium: var(rubik-medium);
+
+  /*letra OpenSans-SemiBold: lema, botón "ENVIAR" y footer excp. copyright*/
+  --letra-open-sans: var(OpenSans-SemiBold);
+
+  /* partes no mencionadas usan esta letra*/
+  --letra-open-sans2: var(OpenSans-Regular);
+
+  /* "NOMBRE DE GRUPO" en Header, <p> de "Equipo", <p> de "Fortalezas", <p> de "Debilidades", <p> de cada "Quién Somos"*/
+  --font-size15: var(16px);
+
+  /* en <nav> "Equipo", "Quiénes somos", "Contacto"*/
+  --font-size16: var(15px);
+
+  /* en lema, <h1> de "Equipo" y <h1> de "Quiénes Somos"*/
+  --font-size24: var(24px);
+
+  /* "Fortalezas" y "Debilidades"*/
+  --font-size22: var(22px);
+
+  /* Nombres cada Miembro en "Quiénes Somos"*/
+  --font-size20: var(20px);
+
+  /* Todo Footer */
+  --font-size14: var(14px);
+}
