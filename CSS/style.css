@@ -32,3 +32,10 @@
   /* Todo Footer */
   --font-size14: var(14px);
 }
+.fortalezas-debilidades {
+  background-color: cool-grey;
+}
+.quienes-somos,
+fondo equipo {
+  background-color: white;
+}
