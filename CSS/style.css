@@ -34,6 +34,8 @@
 }
 .arriba{
   background-color: #099d8d;
+
+  margin: 15px;
 }
 .lista{
   display: flex;
@@ -45,7 +47,74 @@
 .fortalezas-debilidades {
   background-color: cool-grey;
 }
+
 .quienes-somos,
 fondo equipo {
   background-color: white;
 }
+.icon {
+  color: #099d8d;
+  font-size: 16px;
+}
+
+.iconbox {
+  width: 124px;
+  height: 30px;
+  display: inline;
+}
+#equipo {
+  font-size: 24px;
+  color: aqua;
+  line-height: 45px;
+  text-align: center;
+  font-weight: 500px;
+  font-family: "Rubik", sans-serif;
+}
+.titulo-fortalezas-debilidades {
+  font-size: 22px;
+  color: #099d8d;
+  line-height: 45px;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+}
+#QuienesSomos {
+  font-size: 24px;
+  color: #099d8d;
+  line-height: 45px;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  line-height: 45px;
+}
+.fondo-fortalezas-debilidades {
+  background-color: silver;
+}
+p {
+  font-size: 16px;
+  text-align: center;
+  color: #54585a;
+  font-family: "Open Sans";
+  line-height: 24px;
+}
+h4 {
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 45px;
+  text-align: center;
+}
+.foto-altavoz {
+  overflow: hidden;
+
+  width: 120px;
+}
+.quote {
+  font-family: "Open Sans";
+  text-align: center;
+  font-size: 18px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.39;
+  letter-spacing: normal;
+  color: black;
+}
+
+.picprof {width: 20%;}
