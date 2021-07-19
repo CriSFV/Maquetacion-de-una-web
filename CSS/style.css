@@ -33,9 +33,19 @@
   --font-size14: var(14px);
 }
 .arriba{
-  background-color: var(--color-verde);
+  background-color: #099d8d;
+}
+.lista{
+  display: flex;
 }
 .blanco{
-  color: var(--color-blanco);
+  color: white;
   text-decoration:none;
+}
+.fortalezas-debilidades {
+  background-color: cool-grey;
+}
+.quienes-somos,
+fondo equipo {
+  background-color: white;
 }
