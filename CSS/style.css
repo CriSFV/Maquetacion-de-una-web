@@ -38,11 +38,20 @@
 }
 .lista{
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #14d9c4;
+  width: 100vw;
+  height: 40px;
+  padding: 0px;
+  margin: 0px;
 }
+
 .texto-cabecera{
   color: white;
   text-decoration:none;
   list-style: none;
+  text-align: center;
 }
 .fortalezas-debilidades {
   background-color: cool-grey;
@@ -116,5 +125,34 @@ h4 {
   letter-spacing: normal;
   color: black;
 }
+.container {
+  margin: 15px;
+}
 
-.picprof {width: 20%;}
+.footer {
+  border: #b8b8b9 solid 1px;
+  background-color: white;
+
+  padding: 30px 74px 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footerlink {
+  font-family: OpenSans-Semibold;
+  color: #54585a;
+  size: 40px;
+  line-height: 20px;
+  list-style-type: none;
+  text-decoration: none;
+  align-items: center;
+}
+.copy {
+  color: #b8b8b9;
+  size: 14px;
+  align-items: center;
+}
+.picprof {
+  width: 20%;
+}
