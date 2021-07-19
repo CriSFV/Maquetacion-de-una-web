@@ -32,3 +32,10 @@
   /* Todo Footer */
   --font-size14: var(14px);
 }
+.arriba{
+  background-color: var(--color-verde);
+}
+.blanco{
+  color: var(--color-blanco);
+  text-decoration:none;
+}
