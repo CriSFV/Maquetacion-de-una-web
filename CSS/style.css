@@ -34,15 +34,15 @@
 }
 .arriba{
   background-color: #099d8d;
-
-  margin: 15px;
+  padding: 15px;
 }
 .lista{
   display: flex;
 }
-.blanco{
+.texto-cabecera{
   color: white;
   text-decoration:none;
+  list-style: none;
 }
 .fortalezas-debilidades {
   background-color: cool-grey;
@@ -64,7 +64,7 @@ fondo equipo {
 }
 #equipo {
   font-size: 24px;
-  color: aqua;
+  color: #14d9c4;
   line-height: 45px;
   text-align: center;
   font-weight: 500px;
