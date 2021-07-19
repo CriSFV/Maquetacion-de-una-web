@@ -32,6 +32,7 @@
   /* Todo Footer */
   --font-size14: var(14px);
 }
+
 .quienes-somos,
 fondo equipo {
   background-color: white;
@@ -63,7 +64,6 @@ fondo equipo {
   background-color: silver;
 }
 p {
-  font-family: ;
   font-size: 16px;
   text-align: center;
   color: #54585a;
@@ -75,4 +75,22 @@ h4 {
   font-size: 20px;
   line-height: 45px;
   text-align: center;
+}
+.foto-altavoz {
+  overflow: hidden;
+
+  width: 120px;
+}
+.quote {
+  font-family: "Open Sans";
+  text-align: center;
+  font-size: 18px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.39;
+  letter-spacing: normal;
+  color: black;
+}
+.container {
+  margin: 15px;
 }
