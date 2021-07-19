@@ -34,7 +34,7 @@
 }
 .arriba{
   background-color: #099d8d;
-  padding: 15px;
+  height: 90px;
 }
 .lista{
   display: flex;
@@ -43,15 +43,17 @@
   background-color: #14d9c4;
   width: 100vw;
   height: 40px;
-  padding: 0px;
-  margin: 0px;
+  transform: translate(0%,40%)
 }
-
 .texto-cabecera{
   color: white;
   text-decoration:none;
   list-style: none;
   text-align: center;
+}
+.h1{
+  vertical-align: middle;
+  padding-top: 1vw;
 }
 .fortalezas-debilidades {
   background-color: cool-grey;
