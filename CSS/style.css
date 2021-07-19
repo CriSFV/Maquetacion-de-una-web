@@ -32,3 +32,28 @@
   /* Todo Footer */
   --font-size14: var(14px);
 }
+
+.footer {
+  border: #b8b8b9 solid 1px;
+  background-color: white;
+
+  padding: 30px 74px 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footerlink {
+  font-family: OpenSans-Semibold;
+  color: #54585a;
+  size: 40px;
+  line-height: 20px;
+  list-style-type: none;
+  text-decoration: none;
+  align-items: center;
+}
+.copy {
+  color: #b8b8b9;
+  size: 14px;
+  align-items: center;
+}
