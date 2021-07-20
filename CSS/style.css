@@ -98,6 +98,11 @@ fondo equipo {
   font-weight: 500px;
   font-family: "Rubik", sans-serif;
 }
+
+.container-central-margin {
+  margin: 15px 15px;
+}
+
 .titulo-fortalezas-debilidades {
   font-size: 22px;
   color: #099d8d;
@@ -115,6 +120,7 @@ fondo equipo {
 }
 .fondo-fortalezas-debilidades {
   background-color: silver;
+  padding: 10px;
 }
 p {
   font-size: 16px;
@@ -122,6 +128,7 @@ p {
   color: #54585a;
   font-family: "Open Sans";
   line-height: 24px;
+  margin: 15px 15px;
 }
 h4 {
   font-family: "Open Sans";
@@ -134,7 +141,7 @@ h4 {
 
   width: 120px;
 }
-.quote {
+.quote p {
   font-family: "Open Sans";
   text-align: center;
   font-size: 18px;
@@ -143,6 +150,10 @@ h4 {
   line-height: 1.39;
   letter-spacing: normal;
   color: black;
+  padding: 15px;
+  margin: 15px;
+
+  font-weight: bold;
 }
 .container {
   margin: 15px;
@@ -159,19 +170,35 @@ h4 {
 }
 
 .footerlink {
-  font-family: OpenSans-Semibold;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
   color: #54585a;
   size: 40px;
   line-height: 20px;
-  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   text-decoration: none;
   align-items: center;
 }
 .copy {
   color: #b8b8b9;
   size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
+  padding-bottom: 20px;
 }
+.logo {
+  text-align: center;
+}
+.adalab {
+  width: 115.9px;
+  height: 45px;
+  padding-top: 30px;
+}
+<<<<<<< HEAD
 .Hcontact {
   margin-top: 58px;
   margin-left: 97.5px;
@@ -234,3 +261,5 @@ h4 {
   border-radius: 4px;
   width: 100%;
 }
+=======
+>>>>>>> f0c18a25da7c081a2b37ba2eb85090fc67c6cb93
