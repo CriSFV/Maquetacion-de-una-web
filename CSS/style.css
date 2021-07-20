@@ -32,26 +32,26 @@
   /* Todo Footer */
   --font-size14: var(14px);
 }
-.arriba{
+.arriba {
   background-color: #099d8d;
   height: 90px;
 }
-.lista{
+.lista {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   background-color: #14d9c4;
   width: 100vw;
   height: 40px;
-  transform: translate(0%,40%)
+  transform: translate(0%, 40%);
 }
-.texto-cabecera{
+.texto-cabecera {
   color: white;
-  text-decoration:none;
+  text-decoration: none;
   list-style: none;
   text-align: center;
 }
-.h1{
+.h1 {
   vertical-align: middle;
   padding-top: 1vw;
 }
@@ -64,21 +64,24 @@ fondo equipo {
   background-color: white;
   margin: 15px;
 }
-.picprof { width: 180px;
+.picprof {
+  width: 180px;
   height: 180px;
   margin-left: 70px;
   margin-right: 70px;
   margin-top: 45px;
   margin-bottom: 15px;
 }
-.art-who-r-we { width: 290px;
-height: 200px;
-text-align: center;}
+.art-who-r-we {
+  width: 290px;
+  height: 200px;
+  text-align: center;
+}
 
 .icon {
   color: #099d8d;
   font-size: 16px;
-  display:inline-block;
+  display: inline-block;
 }
 
 .iconbox {
@@ -169,4 +172,65 @@ h4 {
   size: 14px;
   align-items: center;
 }
+.Hcontact {
+  margin-top: 58px;
+  margin-left: 97.5px;
+  margin-right: 95.5px;
+}
+.text {
+  margin: 15px;
+}
+.asterisco {
+  color: #14d9c4;
+}
+.form {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.name {
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.caja {
+  height: 5vh;
+}
 
+.email {
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.number {
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.message {
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.boton {
+  margin-top: 20px;
+  border: 10px;
+  text-decoration: none;
+  padding: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #099d8d;
+  border-radius: 4px;
+  width: 100%;
+}

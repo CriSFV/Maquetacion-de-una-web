@@ -24,10 +24,8 @@
       <h1 class="texto-cabecera h1">Nombre del grupo</h1>
       <nav class="lista">
         <!-- pdte incluir las id# -->
-        <a href="../index.html/#Equipo" class="texto-cabecera">EQUIPO</a>
-        <a href="../index.html/#QuienesSomos" class="texto-cabecera"
-          >QUIENES SOMOS</a
-        >
+        <a href="../index.html " class="texto-cabecera">EQUIPO</a>
+        <a href="../index.html" class="texto-cabecera">QUIENES SOMOS</a>
         <a href="./contacto.html" class="texto-cabecera">CONTACTO</a>
       </nav>
     </header>
@@ -38,37 +36,63 @@
           alt="foto altavoz moderno"
         />
       </div>
-      <section>
+      <section class="contacto">
         <h2 class="Hcontact">CONTACTO</h2>
-        <p>
+        <p class="text">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam
           dolorum animi nisi, mollitia, vitae minima voluptas illo illum,
           praesentium sunt corporis temporibus accusantium quo eum adipisci quod
-          ea? Ipsum, culpa.
+          ea? Ipsum, culpa
         </p>
-        <small
-          >Todos los campos marcados con <span class="asterisco">*</span> son
-          obligatorios</small
-        >
+        <p>
+          <small class="small"
+            >Todos los campos marcados con <span class="asterisco">*</span> son
+            obligatorios</small
+          >
+        </p>
       </section>
       <section class="form">
         <form>
-          <label for="name" class="name"
-            >Nombre completo <span class="asterisco">*</span></label
-          >
-          <input type="name" name="name" placeholder="nombre completo" />
+          <div class="name">
+            <label for="name" class="name"
+              >Nombre completo <span class="asterisco">*</span></label
+            >
+            <input
+              type="name"
+              name="name"
+              placeholder="nombre completo"
+              class="caja"
+            />
+          </div>
+          <div class="email">
+            <label for="email" class="email"
+              >Email <span class="asterisco">*</span></label
+            ><textarea name="mensaje" class="caja">
+nombre.apellidos@mail.com</textarea
+            >
+          </div>
+          <div class="number">
+            <label for="telefono" class="telefono">Teléfono</label>
+            <input
+              type="number"
+              name="number"
+              placeholder="Ej:12345678"
+              class="caja"
+            />
+          </div>
 
-          <label for="email" class="email"
-            >Email <span class="asterisco">*</span></label
-          ><textarea name="mensaje">nombre.apellidos@mail.com</textarea>
-
-          <label for="telefono" class="telefono">Teléfono</label>
-          <input type="number" name="number" placeholder="Ej:12345678" />
-          <label for="mensaje" class="mensaje"
-            >Mensaje <span class="asterisco">*</span></label
-          >
-          <input type="text" name="mensaje" placeholder="¿Qué necesitas?" />
-          <input type="submit" value="ENVIAR" />
+          <div class="menssage">
+            <label for="mensaje" class="mensaje"
+              >Mensaje <span class="asterisco">*</span></label
+            >
+            <input
+              type="text"
+              name="mensaje"
+              placeholder="¿Qué necesitas?"
+              class="caja"
+            />
+          </div>
+          <input type="submit" class="boton" />
         </form>
       </section>
     </main>
@@ -82,7 +106,7 @@
       <div class="logo">
         <img
           class="adalab"
-          src="./IMAGENES/logo-adalab.png"
+          src="../IMAGENES/logo-adalab.png"
           alt="Logo adalab"
         />
       </div>
