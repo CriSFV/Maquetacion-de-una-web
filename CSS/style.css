@@ -62,18 +62,32 @@
 .quienes-somos,
 fondo equipo {
   background-color: white;
+  margin: 15px;
 }
+.picprof { width: 180px;
+  height: 180px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 45px;
+  margin-bottom: 15px;
+}
+.art-who-r-we { width: 290px;
+height: 200px;
+text-align: center;}
+
 .icon {
   color: #099d8d;
   font-size: 16px;
+  display:inline-block;
 }
 
 .iconbox {
   width: 124px;
   height: 30px;
-  display: inline;
+  text-align: center;
 }
-#equipo {
+#equipo,
+.Hcontact {
   font-size: 24px;
   color: #14d9c4;
   line-height: 45px;
@@ -155,6 +169,4 @@ h4 {
   size: 14px;
   align-items: center;
 }
-.picprof {
-  width: 20%;
-}
+
