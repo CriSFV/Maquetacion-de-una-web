@@ -139,14 +139,14 @@ h4 {
 }
 
 .footerlink {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
   color: #54585a;
   size: 40px;
   line-height: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  list-style-type: none;
   text-decoration: none;
   align-items: center;
 }
@@ -157,12 +157,15 @@ h4 {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  padding-bottom: 20px;
 }
 .logo {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+  text-align: center;
+}
+.adalab {
+  width: 115.9px;
+  height: 45px;
+  padding-top: 30px;
 }
 .picprof {
   width: 20%;
