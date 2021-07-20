@@ -4,33 +4,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacto</title>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../CSS/reset.css" />
     <link rel="stylesheet" href="../CSS/style.css" />
-
   </head>
   <body>
     <header class="arriba">
       <h1 class="texto-cabecera h1">Nombre del grupo</h1>
       <nav class="lista">
-          <!-- pdte incluir las id# -->
-          <a href="#equipo" class="texto-cabecera">EQUIPO</a>
-          <a href="#QuienesSomos" class="texto-cabecera">QUINES SOMOS</a>
-          <a href="./contacto.html" class="texto-cabecera">CONTACTO</a>
+        <!-- pdte incluir las id# -->
+        <a href="../index.html/#Equipo" class="texto-cabecera">EQUIPO</a>
+        <a href="../index.html/#QuienesSomos" class="texto-cabecera"
+          >QUIENES SOMOS</a
+        >
+        <a href="./contacto.html" class="texto-cabecera">CONTACTO</a>
       </nav>
     </header>
+    <main>
+      <div class="foto-altavoz">
+        <img
+          src="../IMAGENES/altavoz-barato-1-2-3.jpg"
+          alt="foto altavoz moderno"
+        />
+      </div>
+      <section>
+        <h2 class="Hcontact">CONTACTO</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam
+          dolorum animi nisi, mollitia, vitae minima voluptas illo illum,
+          praesentium sunt corporis temporibus accusantium quo eum adipisci quod
+          ea? Ipsum, culpa.
+        </p>
+        <small
+          >Todos los campos marcados con <span class="asterisco">*</span> son
+          obligatorios</small
+        >
+      </section>
+      <section class="form">
+        <form>
+          <label for="name" class="name"
+            >Nombre completo <span class="asterisco">*</span></label
+          >
+          <input type="name" name="name" placeholder="nombre completo" />
 
+          <label for="email" class="email"
+            >Email <span class="asterisco">*</span></label
+          ><textarea name="mensaje">nombre.apellidos@mail.com</textarea>
 
-  <h1 class="Hcontact">CONTACTO</h1>
-
-  <input type="name"> Nombre completo
-  <input type="text"> Email
-  <input type="number"> Teléfono
-  <input type="text"> Mensaje
-  <input type="button" value="ENVIAR">
-
+          <label for="telefono" class="telefono">Teléfono</label>
+          <input type="number" name="number" placeholder="Ej:12345678" />
+          <label for="mensaje" class="mensaje"
+            >Mensaje <span class="asterisco">*</span></label
+          >
+          <input type="text" name="mensaje" placeholder="¿Qué necesitas?" />
+          <input type="submit" value="ENVIAR" />
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="copy">Nombre equipo &copy;2021</div>
+      <nav class="menu2">
+        <a class="footerlink" href="#equipo">Equipo</a>
+        <a class="footerlink" href="#QuienesSomos">Quienes somos</a>
+        <a class="footerlink" href="./contacto.html">Contacto</a>
+      </nav>
+      <div class="logo">
+        <img
+          class="adalab"
+          src="./IMAGENES/logo-adalab.png"
+          alt="Logo adalab"
+        />
+      </div>
+    </footer>
   </body>
 </html>
