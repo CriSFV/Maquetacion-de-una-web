@@ -98,3 +98,9 @@ h4 {
   letter-spacing: normal;
   color: black;
 }
+.container {
+  margin: 15px;
+}
+.picprof {
+  width: 20%;
+}
