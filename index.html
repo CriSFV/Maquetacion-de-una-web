@@ -9,23 +9,18 @@
     />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../CSS/reset.css" />
-    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/reset.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
-    
-      <h1>Nombre del grupo</h1>
-      <nav>
-        <ul>
+    <header class="arriba">
+      <h1 class="texto-cabecera h1">Nombre del grupo</h1>
+      <nav class="lista">
           <!-- pdte incluir las id# -->
-          <li><a href="#Equipo">Equipo</a></li>
-          <li><a href="#QuienesSomos">Quienes somos</a></li>
-          <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
+          <a href="#equipo" class="texto-cabecera">EQUIPO</a>
+          <a href="#QuienesSomos" class="texto-cabecera">QUINES SOMOS</a>
+          <a href="./contacto.html" class="texto-cabecera">CONTACTO</a>
       </nav>
-    </div>
     </header>
     <main>
       <div class="foto-altavoz">
@@ -159,14 +154,13 @@
     </main>
     <footer class="footer">
       <div class="copy">Nombre equipo &copy;2021</div>
-      <nav>
-        <ul class="menu2">
-          <li class="footerlink"><a href="#equipo">Equipo</a></li>
-          <li class="footerlink"><a href="#QuienesSomos">Quienes somos</a></li>
-          <li class="footerlink"><a href="./contacto.html">Contacto</a></li>
-        </ul>
+      <nav class="menu2">
+        <a class="footerlink" href="#equipo">Equipo</a>
+        <a class="footerlink" href="#QuienesSomos">Quienes somos</a>
+        <a class="footerlink" href="./contacto.html">Contacto</a>
       </nav>
-      <div><img src="../IMAGENES/logo-adalab.png" alt="Logo adalab" /></div>
+      <div class="logo">
+        <img src="../IMAGENES/logo-adalab.png" alt="Logo adalab" /></div>
     </footer>
   </body>
 </html>
