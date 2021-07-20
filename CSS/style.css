@@ -32,26 +32,26 @@
   /* Todo Footer */
   --font-size14: var(14px);
 }
-.arriba{
+.arriba {
   background-color: #099d8d;
   height: 90px;
 }
-.lista{
+.lista {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   background-color: #14d9c4;
   width: 100vw;
   height: 40px;
-  transform: translate(0%,40%)
+  transform: translate(0%, 40%);
 }
-.texto-cabecera{
+.texto-cabecera {
   color: white;
-  text-decoration:none;
+  text-decoration: none;
   list-style: none;
   text-align: center;
 }
-.h1{
+.h1 {
   vertical-align: middle;
   padding-top: 1vw;
 }
@@ -64,21 +64,24 @@ fondo equipo {
   background-color: white;
   margin: 15px;
 }
-.picprof { width: 180px;
+.picprof {
+  width: 180px;
   height: 180px;
   margin-left: 70px;
   margin-right: 70px;
   margin-top: 45px;
   margin-bottom: 15px;
 }
-.art-who-r-we { width: 290px;
-height: 200px;
-text-align: center;}
+.art-who-r-we {
+  width: 290px;
+  height: 200px;
+  text-align: center;
+}
 
 .icon {
   color: #099d8d;
   font-size: 16px;
-  display:inline-block;
+  display: inline-block;
 }
 
 .iconbox {
@@ -95,6 +98,11 @@ text-align: center;}
   font-weight: 500px;
   font-family: "Rubik", sans-serif;
 }
+
+.container-central-margin {
+  margin: 15px 15px;
+}
+
 .titulo-fortalezas-debilidades {
   font-size: 22px;
   color: #099d8d;
@@ -112,6 +120,7 @@ text-align: center;}
 }
 .fondo-fortalezas-debilidades {
   background-color: silver;
+  padding: 10px;
 }
 p {
   font-size: 16px;
@@ -119,6 +128,7 @@ p {
   color: #54585a;
   font-family: "Open Sans";
   line-height: 24px;
+  margin: 15px 15px;
 }
 h4 {
   font-family: "Open Sans";
@@ -131,7 +141,7 @@ h4 {
 
   width: 120px;
 }
-.quote {
+.quote p {
   font-family: "Open Sans";
   text-align: center;
   font-size: 18px;
@@ -140,6 +150,10 @@ h4 {
   line-height: 1.39;
   letter-spacing: normal;
   color: black;
+  padding: 15px;
+  margin: 15px;
+
+  font-weight: bold;
 }
 .container {
   margin: 15px;
@@ -169,4 +183,3 @@ h4 {
   size: 14px;
   align-items: center;
 }
-
