@@ -32,26 +32,26 @@
   /* Todo Footer */
   --font-size14: var(14px);
 }
-.arriba{
+.arriba {
   background-color: #099d8d;
   height: 90px;
 }
-.lista{
+.lista {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   background-color: #14d9c4;
   width: 100vw;
   height: 40px;
-  transform: translate(0%,40%)
+  transform: translate(0%, 40%);
 }
-.texto-cabecera{
+.texto-cabecera {
   color: white;
-  text-decoration:none;
+  text-decoration: none;
   list-style: none;
   text-align: center;
 }
-.h1{
+.h1 {
   vertical-align: middle;
   padding-top: 1vw;
 }
@@ -142,10 +142,13 @@ h4 {
 }
 
 .footerlink {
-  font-family: OpenSans-Semibold;
+  font-family: "Open Sans";
   color: #54585a;
   size: 40px;
   line-height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   list-style-type: none;
   text-decoration: none;
   align-items: center;
@@ -153,6 +156,15 @@ h4 {
 .copy {
   color: #b8b8b9;
   size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
 }
 .picprof {
