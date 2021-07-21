@@ -101,9 +101,10 @@
   font-weight: 500px;
   font-family: "Rubik", sans-serif;
 }
-
+/*da márgenes a la columna central*/
 .container-central-margin {
   margin: 15px 15px;
+  position: relative;
 }
 
 .titulo-fortalezas-debilidades {
@@ -142,10 +143,18 @@ h4 {
   text-align: center;
 }
 .foto-altavoz {
-  overflow: hidden;
-
-  width: 120px;
+  width: 100%;
+  position: relative;
 }
+.box {
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: -50px;
+  position: relative;
+  z-index: 2;
+  background-color: white;
+}
+
 .quote p {
   font-family: "Open Sans";
   text-align: center;
@@ -157,7 +166,6 @@ h4 {
   color: black;
   padding: 15px;
   margin: 15px;
-
   font-weight: bold;
 }
 .container {
