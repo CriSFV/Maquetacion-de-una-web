@@ -90,7 +90,7 @@
   margin: auto;
   display: flex;
   flex-direction: row;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
 }
 #equipo,
 .Hcontact {
@@ -185,6 +185,7 @@ h4 {
   justify-content: space-around;
   text-decoration: none;
   align-items: center;
+  text-transform: uppercase;
 }
 .copy {
   color: #b8b8b9;
@@ -203,8 +204,6 @@ h4 {
   height: 45px;
   padding-top: 30px;
 }
-
-
 
 /*Contacto*/
 .Hcontact {
