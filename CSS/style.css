@@ -233,6 +233,7 @@ h4 {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+  margin-bottom: 13px;
 }
 
 .email {
@@ -240,18 +241,21 @@ h4 {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+  margin-bottom: 13px;
 }
 .number {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+  margin-bottom: 13px;
 }
 .message {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+  margin-bottom: 13px;
 }
 .caja {
   font-family: "Open Sans";
@@ -259,6 +263,7 @@ h4 {
   width: 90vw;
 }
 .caja2 {
+  margin-top: 7px;
   font-family: "Open Sans";
   height: 12vh;
   width: 90vw;
