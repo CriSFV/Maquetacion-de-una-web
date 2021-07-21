@@ -219,6 +219,9 @@ h4 {
   margin-left: 97.5px;
   margin-right: 95.5px;
 }
+.contacto {
+  margin-bottom: 58px;
+}
 .text {
   margin: 15px;
 }
@@ -238,6 +241,7 @@ h4 {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+  margin-bottom: 13px;
 }
 
 .email {
@@ -245,18 +249,21 @@ h4 {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+  margin-bottom: 13px;
 }
 .number {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+  margin-bottom: 13px;
 }
 .message {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+  margin-bottom: 13px;
 }
 .caja {
   font-family: "Open Sans";
@@ -264,10 +271,13 @@ h4 {
   width: 90vw;
 }
 .caja2 {
+  margin-top: 7px;
   font-family: "Open Sans";
   height: 12vh;
   width: 90vw;
+  margin-top: 4px;
 }
+
 .boton {
   margin-top: 20px;
   border: 10px;
