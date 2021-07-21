@@ -211,6 +211,9 @@ h4 {
   margin-left: 97.5px;
   margin-right: 95.5px;
 }
+.contacto {
+  margin-bottom: 58px;
+}
 .text {
   margin: 15px;
 }
@@ -259,7 +262,9 @@ h4 {
   font-family: "Open Sans";
   height: 12vh;
   width: 90vw;
+  margin-top: 4px;
 }
+
 .boton {
   margin-top: 20px;
   border: 10px;
