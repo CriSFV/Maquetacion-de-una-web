@@ -113,6 +113,7 @@
   line-height: 45px;
   text-align: center;
   font-family: "Rubik", sans-serif;
+  to
 }
 #QuienesSomos {
   font-size: 24px;
@@ -124,8 +125,17 @@
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+.triangle {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  transform: rotate(45deg);
+  margin: auto;
+}
+/*el cuarto valor del color de fondo da la opacidad (20%)*/
 .fondo-fortalezas-debilidades {
-  background-color: silver;
+  background-color: rgb(184, 184, 185, 0.2);
   padding: 10px;
 }
 p {
