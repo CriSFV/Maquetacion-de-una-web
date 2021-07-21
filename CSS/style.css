@@ -59,8 +59,7 @@
   background-color: cool-grey;
 }
 
-.quienes-somos,
-fondo equipo {
+.quienes-somos {
   background-color: white;
   margin: 15px;
   display: flex;
@@ -71,10 +70,7 @@ fondo equipo {
 .picprof {
   width: 180px;
   height: 180px;
-  margin-left: 70px;
-  margin-right: 70px;
-  margin-top: 45px;
-  margin-bottom: 15px;
+  text-align: center;
 }
 .art-who-r-we {
   width: 290px;
@@ -91,7 +87,10 @@ fondo equipo {
 .iconbox {
   width: 124px;
   height: 30px;
-  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
 }
 #equipo,
 .Hcontact {
