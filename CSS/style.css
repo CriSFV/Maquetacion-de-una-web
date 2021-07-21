@@ -63,6 +63,10 @@
 fondo equipo {
   background-color: white;
   margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .picprof {
   width: 180px;
