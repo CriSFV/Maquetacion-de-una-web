@@ -202,6 +202,10 @@ h4 {
   height: 45px;
   padding-top: 30px;
 }
+
+
+
+/*Contacto*/
 .Hcontact {
   margin-top: 58px;
   margin-left: 97.5px;
@@ -214,44 +218,48 @@ h4 {
   color: #14d9c4;
 }
 .form {
+  font-family: "Open Sans";
+  color: grey;
   margin: 15px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 .name {
-  margin: 15px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
 }
-.caja {
-  height: 5vh;
-}
 
 .email {
-  margin: 15px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
 }
 .number {
-  margin: 15px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
 }
 .message {
-  margin: 15px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
 }
-
+.caja {
+  font-family: "Open Sans";
+  height: 6vh;
+  width: 90vw;
+}
+.caja2 {
+  font-family: "Open Sans";
+  height: 12vh;
+  width: 90vw;
+}
 .boton {
   margin-top: 20px;
   border: 10px;
