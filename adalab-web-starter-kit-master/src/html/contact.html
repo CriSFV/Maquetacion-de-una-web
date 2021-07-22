@@ -1,0 +1,91 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <include src="./partials/header.html"></include>
+    <main>
+      <div class="foto-altavoz">
+        <img
+          src="../assets/images/foto-contacto.jpeg"
+          alt="foto altavoz moderno"
+        />
+      </div>
+      <section class="contacto">
+        <h2 class="Hcontact">CONTACTO</h2>
+        <p class="text">
+          Después de conocer a este magnifico grupo de desarrolladoras web, les
+          dejamos un apartado donde pueden contactarnos para mas preguntas, u
+          ofetas de trabajo.
+        </p>
+        <p>
+          <small class="small"
+            >Todos los campos marcados con <span class="asterisco">*</span> son
+            obligatorios</small
+          >
+        </p>
+      </section>
+      <section class="form">
+        <form>
+          <div class="name">
+            <label for="name" class="name"
+              >Nombre completo <span class="asterisco">*</span></label
+            >
+            <input
+              type="name"
+              name="name"
+              placeholder="nombre completo"
+              class="caja"
+            />
+          </div>
+          <div class="email">
+            <label for="email" class="email"
+              >Email <span class="asterisco">*</span></label
+            ><textarea name="mensaje" class="caja">
+nombre.apellidos@mail.com</textarea
+            >
+          </div>
+          <div class="number">
+            <label for="telefono" class="telefono">Teléfono</label>
+            <input
+              type="number"
+              name="number"
+              placeholder="Ej:12345678"
+              class="caja"
+            />
+          </div>
+
+          <div class="menssage">
+            <label for="mensaje" class="mensaje"
+              >Mensaje <span class="asterisco">*</span></label
+            >
+            <input
+              type="text"
+              name="mensaje"
+              placeholder="¿Qué necesitas?"
+              class="caja2"
+            />
+          </div>
+          <input type="submit" class="boton" />
+        </form>
+      </section>
+    </main>
+    <include src="./partials/footer.html"></include>
+  </body>
+</html>
