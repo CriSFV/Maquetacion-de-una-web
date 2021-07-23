@@ -19,7 +19,9 @@
   line-height: 45px;
   text-align: center;
   font-family: "Rubik", sans-serif;
+  top: 45px;
 }
+
 .triangle {
   height: 30px;
   width: 30px;
@@ -27,11 +29,7 @@
   transform: translate(0, 10px) rotate(45deg);
   margin: auto;
 }
-.fondo-fortalezas-debilidades {
-  background-color: #b8b8b9;
-  //rgb(184, 184, 185, 0.2);
-  padding: 10px;
-}
+
 p {
   font-size: 16px;
   text-align: center;
@@ -40,6 +38,41 @@ p {
   line-height: 24px;
   margin: 15px 15px;
 }
-.fortalezas-debilidades {
-  background-color: cool-grey;
+.fondo-fortalezas-debilidades {
+  background-color: rgba(184, 184, 185, 0.1);
+  padding: 10px;
+}
+
+#equipo {
+  text-transform: uppercase;
+}
+
+@media all and (min-width: 768px) {
+  .fondo-fortalezas-debilidades {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .articulo {
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .primero {
+    margin-left: 68px;
+    margin-right: 23px;
+  }
+  .segundo {
+    margin-right: 68px;
+    margin-left: 23px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  #equipo {
+    margin-left: 300px;
+    margin-right: 300px;
+  }
 }
