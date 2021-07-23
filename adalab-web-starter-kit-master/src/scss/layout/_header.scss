@@ -1,5 +1,23 @@
-.page__header {
+.arriba {
+  background-color: #099d8d;
+  height: 90px;
+}
+.lista {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 3rem;
+  align-items: center;
+  background-color: #14d9c4;
+  width: 100vw;
+  height: 40px;
+  transform: translate(0%, 40%);
+}
+.texto-cabecera {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+}
+.h1 {
+  vertical-align: middle;
+  padding-top: 1vw;
 }

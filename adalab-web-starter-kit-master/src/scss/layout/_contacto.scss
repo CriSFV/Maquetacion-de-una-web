@@ -1,0 +1,76 @@
+.Hcontact {
+  margin-top: 58px;
+  margin-left: 97.5px;
+  margin-right: 95.5px;
+}
+.contacto {
+  margin-bottom: 58px;
+}
+.text {
+  margin: 15px;
+}
+.asterisco {
+  color: #14d9c4;
+}
+.form {
+  font-family: "Open Sans";
+  color: grey;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.name {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 13px;
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 13px;
+}
+.number {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 13px;
+}
+.message {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 13px;
+}
+.caja {
+  font-family: "Open Sans";
+  height: 6vh;
+  width: 90vw;
+}
+.caja2 {
+  margin-top: 7px;
+  font-family: "Open Sans";
+  height: 12vh;
+  width: 90vw;
+  margin-top: 4px;
+}
+
+.boton {
+  margin-top: 20px;
+  border: 10px;
+  text-decoration: none;
+  padding: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #099d8d;
+  border-radius: 4px;
+  width: 100%;
+}

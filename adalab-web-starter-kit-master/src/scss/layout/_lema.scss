@@ -1,0 +1,25 @@
+.foto-altavoz {
+  width: 100%;
+  position: relative;
+}
+.quote p {
+  font-family: "Open Sans";
+  text-align: center;
+  font-size: 18px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.39;
+  letter-spacing: normal;
+  color: black;
+  padding: 15px;
+  margin: 15px;
+  font-weight: bold;
+}
+.box {
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: -50px;
+  position: relative;
+  z-index: 2;
+  background-color: white;
+}

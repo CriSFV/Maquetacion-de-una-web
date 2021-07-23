@@ -1,37 +1,40 @@
-:root {
+/* YA COPIADO- VARIABLES
+ :root {
   --color-blanco: #ffffff;
   --color-negro: #000000;
   --color-verde: #099d8d;
   --color-gris: #54585a;
   --color-gris-claro: #b8b8b9;
 
-  /*letra rubik-medium: en header, h1, h2 */
-  --letra-rubik-medium: "Rubik", sans-serif
+  /*letra rubik-medium: en header, h1, h2 
+  --letra-rubik-medium: "Rubik", sans-serif;
 
-  /*letra OpenSans-SemiBold: lema, botón "ENVIAR" y footer excp. copyright*/
+  /*letra OpenSans-SemiBold: lema, botón "ENVIAR" y footer excp. copyright
   --letra-open-sans: "Open Sans";
 
-  /* partes no mencionadas usan esta letra*/
+  /* partes no mencionadas usan esta letra
   --letra-open-sans2: "OpenSans-Regular";
 
-  /* "NOMBRE DE GRUPO" en Header, <p> de "Equipo", <p> de "Fortalezas", <p> de "Debilidades", <p> de cada "Quién Somos"*/
+  /* "NOMBRE DE GRUPO" en Header, <p> de "Equipo", <p> de "Fortalezas", <p> de "Debilidades", <p> de cada "Quién Somos"
   --font-size15: 16px;
 
-  /* en <nav> "Equipo", "Quiénes somos", "Contacto"*/
+  /* en <nav> "Equipo", "Quiénes somos", "Contacto"
   --font-size16: 15px;
 
-  /* en lema, <h1> de "Equipo" y <h1> de "Quiénes Somos"*/
+  /* en lema, <h1> de "Equipo" y <h1> de "Quiénes Somos"
   --font-size24: 24px;
 
-  /* "Fortalezas" y "Debilidades"*/
+  /* "Fortalezas" y "Debilidades"
   --font-size22: 22px;
 
-  /* Nombres cada Miembro en "Quiénes Somos"*/
+  /* Nombres cada Miembro en "Quiénes Somos"
   --font-size20: 20px;
 
-  /* Todo Footer */
+  /* Todo Footer 
   --font-size14: 14px;
-}
+} */
+
+/* YA COPIADO-HEADER
 .arriba {
   background-color: #099d8d;
   height: 90px;
@@ -54,18 +57,16 @@
 .h1 {
   vertical-align: middle;
   padding-top: 1vw;
-}
-.fortalezas-debilidades {
-  background-color: cool-grey;
-}
+} */
 
+/* YA COPIADO- QUIENES SOMOS
 .quienes-somos {
   background-color: white;
   margin-right: 15px;
   margin-left: 15px;
   display: flex;
-  flex-direction:column;
-  justify-content:center;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 .picprof {
@@ -76,7 +77,7 @@
 .art-who-r-we {
   width: 290px;
   height: 200px;
-  text-align:center;
+  text-align: center;
 }
 
 .icon {
@@ -92,30 +93,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-}
-#equipo,
-.Hcontact {
-  font-size: 24px;
-  color: #14d9c4;
-  line-height: 45px;
-  text-align: center;
-  font-weight: 500px;
-  font-family: "Rubik", sans-serif;
-}
-/*da márgenes a la columna central*/
-.container-central-margin {
-  margin: 15px 15px;
-  position: relative;
-}
-
-.titulo-fortalezas-debilidades {
-  font-size: 22px;
-  color: #099d8d;
-  line-height: 45px;
-  text-align: center;
-  font-family: "Rubik", sans-serif;
-
-}
+} 
 #QuienesSomos {
   font-size: 24px;
   color: #099d8d;
@@ -127,14 +105,47 @@
   margin-bottom: 30px;
 }
 
-.triangle {
+h4 {
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 45px;
+  text-align: center;
+}
+*/
+/*da márgenes a la columna central*/
+
+/*
+YA COPIADO/ EQUIPO
+#equipo,
+.Hcontact {
+  font-size: 24px;
+  color: #14d9c4;
+  line-height: 45px;
+  text-align: center;
+  font-weight: 500px;
+  font-family: "Rubik", sans-serif;
+}
+ 
+ .container-central-margin {
+  margin: 15px 15px;
+  position: relative;
+}
+
+.titulo-fortalezas-debilidades {
+  font-size: 22px;
+  color: #099d8d;
+  line-height: 45px;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+
+  .triangle {
   height: 50px;
   width: 50px;
   background-color: white;
   transform: rotate(45deg);
   margin: auto;
 }
-/*el cuarto valor del color de fondo da la opacidad (20%)*/
+el cuarto valor del color de fondo da la opacidad (20%)
 .fondo-fortalezas-debilidades {
   background-color: rgb(184, 184, 185, 0.2);
   padding: 10px;
@@ -147,25 +158,18 @@ p {
   line-height: 24px;
   margin: 15px 15px;
 }
-h4 {
-  font-family: "Open Sans";
-  font-size: 20px;
-  line-height: 45px;
-  text-align: center;
+
+} 
+.fortalezas-debilidades {
+  background-color: cool-grey;
 }
-.foto-altavoz {
+*/
+
+/* YA COPIADO-LEMA
+ .foto-altavoz {
   width: 100%;
   position: relative;
-}
-.box {
-  margin-right: 15px;
-  margin-left: 15px;
-  margin-top: -50px;
-  position: relative;
-  z-index: 2;
-  background-color: white;
-}
-
+} 
 .quote p {
   font-family: "Open Sans";
   text-align: center;
@@ -179,10 +183,21 @@ h4 {
   margin: 15px;
   font-weight: bold;
 }
+.box {
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: -50px;
+  position: relative;
+  z-index: 2;
+  background-color: white;
+}
+*/
+
 .container {
   margin: 15px;
 }
 
+/* YA COPIADO
 .footer {
   border: #b8b8b9 solid 1px;
   background-color: white;
@@ -222,7 +237,7 @@ h4 {
   width: 115.9px;
   height: 45px;
   padding-top: 30px;
-}
+}  */
 
 /*Contacto*/
 .Hcontact {
@@ -303,9 +318,7 @@ h4 {
 }
 
 @media all and (min-width: 768px) {
-  
 }
 
 @media all and (min-width: 1200px) {
-
 }

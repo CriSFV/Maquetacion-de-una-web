@@ -1,0 +1,51 @@
+.quienes-somos {
+  background-color: white;
+  margin-right: 15px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.picprof {
+  width: 180px;
+  height: 180px;
+  text-align: center;
+}
+.art-who-r-we {
+  width: 290px;
+  height: 200px;
+  text-align: center;
+}
+
+.icon {
+  color: #099d8d;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.iconbox {
+  width: 124px;
+  height: 30px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#QuienesSomos {
+  font-size: 24px;
+  color: #099d8d;
+  line-height: 45px;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  line-height: 45px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 45px;
+  text-align: center;
+}
