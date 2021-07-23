@@ -42,29 +42,27 @@
         </p>
       </section>
       <section class="form">
-        <form>
+        <form action="/signup" method="post">
           <div class="name">
             <label for="name"
               >Nombre completo <span class="asterisco">*</span></label
             >
-            <input
-              type="name"
-              name="name"
-              placeholder="Nombre..."
-              class="caja"
-            />
+            <input id="name" type="text" placeholder="Nombre..." class="caja" />
           </div>
           <div class="email">
-            <label for="email">Email <span class="asterisco">*</span></label
-            ><textarea name="mensaje" class="caja2">
-nombre.apellidos@mail.com</textarea
-            >
+            <label for="email">Email <span class="asterisco">*</span></label>
+            <input
+              id="email"
+              type="email"
+              placeholder="nombre.apellidos@mail.com"
+              class="caja2"
+            />
           </div>
           <div class="number">
             <label for="telefono">Teléfono</label>
             <input
-              type="number"
-              name="number"
+              id="number"
+              type="telr"
               placeholder="Ej:12345678"
               class="caja3"
             />
@@ -75,6 +73,7 @@ nombre.apellidos@mail.com</textarea
               >Mensaje <span class="asterisco">*</span></label
             >
             <input
+              id="mensage"
               type="text"
               name="mensaje"
               placeholder="¿Qué necesitas?"
