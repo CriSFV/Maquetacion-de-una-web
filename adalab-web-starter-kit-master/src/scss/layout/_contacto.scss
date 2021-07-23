@@ -55,6 +55,18 @@
   width: 90vw;
 }
 .caja2 {
+  font-family: "Open Sans";
+  height: 6vh;
+  width: 90vw;
+}
+
+.caja3 {
+  font-family: "Open Sans";
+  height: 6vh;
+  width: 90vw;
+}
+
+.caja4 {
   margin-top: 7px;
   font-family: "Open Sans";
   height: 12vh;
@@ -73,4 +85,118 @@
   background-color: #099d8d;
   border-radius: 4px;
   width: 100%;
+}
+/*tablet*/
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .Hcontact {
+    padding: 30px, 319.5px, 711px, 321.5px;
+  }
+  .contacto {
+    width: 442px;
+    height: 200px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 163px;
+    margin-right: 163px;
+    margin-bottom: 50px;
+  }
+  .form {
+    margin-bottom: 58px;
+    margin-left: 163px;
+    margin-right: 163px;
+  }
+
+  .number {
+    display: flex;
+  }
+  .mensaje {
+    margin-right: 163px;
+    display: flex;
+  }
+  .caja {
+    width: 442px;
+    height: 45px;
+    margin-right: 163px;
+  }
+  .caja2 {
+    width: 442px;
+    height: 45px;
+    margin-right: 163px;
+  }
+  .caja3 {
+    width: 442px;
+    height: 45px;
+    margin-right: 163px;
+  }
+  .caja4 {
+    width: 442px;
+    height: 105px;
+  }
+  .boton {
+    width: 206px;
+    height: 45px;
+    position: relative;
+    left: 237px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .contacto {
+    width: 600px;
+    height: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+  .form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .name {
+    margin-left: 300px;
+    diplay: flex;
+    flex-direction: column;
+  }
+  .email {
+    margin-left: 300px;
+    diplay: flex;
+    flex-direction: column;
+  }
+
+  .number {
+    position: absolute;
+    top: 677px;
+    right: 300px;
+    width: 162px;
+    height: 45px;
+  }
+  .menssage {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+  }
+  .caja {
+    width: 600px;
+    height: 45px;
+    margin-bottom: 15px;
+  }
+
+  .caja2 {
+    width: 395px;
+    height: 45px;
+  }
+  .caja3 {
+    height: 45px;
+    width: 162px;
+  }
+  .caja4 {
+    height: 115px;
+    width: 601px;
+  }
+  .boton {
+    width: 278;
+    height: 45px;
+    margin-left: 622px;
+  }
 }

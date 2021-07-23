@@ -197,7 +197,7 @@ p {
   margin: 15px;
 }
 
-/* YA COPIADO
+/* YA COPIADO - FOOTER
 .footer {
   border: #b8b8b9 solid 1px;
   background-color: white;
@@ -239,7 +239,7 @@ p {
   padding-top: 30px;
 }  */
 
-/*Contacto*/
+/* YA COPIADO- Contacto
 .Hcontact {
   margin-top: 58px;
   margin-left: 97.5px;
@@ -317,6 +317,7 @@ p {
   width: 100%;
 }
 
+*/
 @media all and (min-width: 768px) {
 }
 
