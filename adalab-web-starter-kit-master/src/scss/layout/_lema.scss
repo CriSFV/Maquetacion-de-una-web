@@ -18,8 +18,8 @@
   line-height: 1.39;
   letter-spacing: normal;
   color: black;
-  padding: 15px;
-  margin: 15px;
+  /*padding: 15px;*/
+  /*margin: 15px;*/
   font-weight: bold;
 }
 .box {
@@ -27,6 +27,18 @@
   margin-left: 15px;
   margin-top: -50px;
   position: relative;
+  padding: 10px;
   z-index: 2;
   background-color: white;
+}
+
+@media all and (min-width: 768px) {
+  .box {
+    width: 441px;
+    height: 110px;
+    margin-left: 45px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: -130px;
+    padding: 20px 10px;
+  }
 }
