@@ -46,9 +46,12 @@
 @media all and (min-width: 1200px) {
   .box {
     margin: auto;
-    background-color: red;
-  }
-  quote {
-    border: 3px solid black;
+    width: 574px;
+    height: 90px;
+    margin-top: -150px;
+    margin-bottom: 80px;
+    padding: 30px 20px;
+    opacity: 0.8;
+    background-color: #ffffff;
   }
 }
