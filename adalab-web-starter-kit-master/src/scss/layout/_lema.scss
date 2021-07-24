@@ -42,3 +42,9 @@
     padding: 20px 10px;
   }
 }
+
+@media all and (min-with: 1200px) {
+  .box {
+    margin: auto;
+  }
+}
