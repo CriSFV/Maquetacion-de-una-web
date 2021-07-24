@@ -39,7 +39,6 @@ p {
   margin: 15px 15px;
 }
 .fondo-fortalezas-debilidades {
-  background-color: rgba(184, 184, 185, 0.1);
   padding: 10px;
 }
 
@@ -74,5 +73,12 @@ p {
   #equipo {
     margin-left: 300px;
     margin-right: 300px;
+  }
+  .container-central-margin {
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+  .imagen {
+    width: 100vw;
   }
 }
