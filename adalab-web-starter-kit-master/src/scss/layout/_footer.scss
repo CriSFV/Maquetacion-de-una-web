@@ -21,20 +21,21 @@
 }
 
 .footerlink {
-  font-family: "Open Sans", sans-serif;
+  font-family: $letra-open-sans;
   font-weight: bold;
-  color: #54585a;
-  size: 40px;
+  color: $color-gris;
+  size: $font-size14;
   line-height: 20px;
   text-decoration: none;
   text-transform: uppercase;
 }
 .copy {
-  color: #b8b8b9;
-  size: 14px;
+  color: $color-gris-claro;
+  size: $font-size14;
   line-height: 20px;
   text-align: center;
   padding-bottom: 20px;
+
   @media (min-width: 768px) {
     text-align: left;
     padding: 0px;
