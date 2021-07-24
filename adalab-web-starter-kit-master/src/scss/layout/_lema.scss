@@ -43,8 +43,12 @@
   }
 }
 
-@media all and (min-with: 1200px) {
+@media all and (min-width: 1200px) {
   .box {
     margin: auto;
+  }
+  quote {
+    background-color: red;
+    border: 3px solid black;
   }
 }
