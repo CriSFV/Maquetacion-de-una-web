@@ -1,5 +1,5 @@
 .footer {
-  border: #b8b8b9 solid 1px;
+  border-top: #b8b8b9 solid 1px;
   background-color: white;
   padding: 30px 0px 45px 0px;
   display: flex;
@@ -17,6 +17,7 @@
   @media (min-width: 768px) {
     align-items: flex-end;
     margin: 24px 45px 56px 0px;
+    transform: translate(0, -30px);
   }
 }
 
