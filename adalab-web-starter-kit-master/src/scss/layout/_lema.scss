@@ -1,7 +1,6 @@
 .foto-altavoz {
   width: 100vw;
   height: auto;
-  background-color: blue;
 }
 
 .imagen {
@@ -32,14 +31,18 @@
   background-color: white;
 }
 
-@media all and (min-width: 768px) {
+@media all and (min-width: 768px) and (max-width: 1200px) {
   .box {
-    width: 441px;
-    height: 110px;
+    /*width: 441px;
+    height: 110px;*/
     margin-left: 45px;
-    background-color: rgba(255, 255, 255, 0.8);
     margin-top: -130px;
     padding: 20px 10px;
+  }
+
+  .imagen {
+    width: 100vw;
+    height: auto;
   }
 }
 
@@ -56,6 +59,6 @@
   }
   .imagen {
     width: 100vw;
-    height: aut;
+    height: auto;
   }
 }
