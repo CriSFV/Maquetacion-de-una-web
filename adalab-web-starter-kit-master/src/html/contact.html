@@ -47,8 +47,15 @@
             <label for="name"
               >Nombre completo <span class="asterisco">*</span></label
             >
-            <input id="name" type="text" placeholder="Nombre..." class="caja" />
+            <input
+              id="name"
+              type="text"
+              placeholder="Nombre..."
+              class="caja"
+              required
+            />
           </div>
+
           <div class="email">
             <label for="email">Email <span class="asterisco">*</span></label>
             <input
@@ -56,6 +63,7 @@
               type="email"
               placeholder="nombre.apellidos@mail.com"
               class="caja2"
+              required
             />
           </div>
           <div class="number">
@@ -69,17 +77,28 @@
           </div>
 
           <div class="menssage">
-            <label for="mensage"
+            <label for="menssage"
               >Mensaje <span class="asterisco">*</span></label
             >
-            <input
+            <textarea
+              id="menssage"
+              name="message"
+              rows="8"
+              cols="60"
+              placeholder="¿Qué necesitas?"
+              class="caja4"
+              required
+            ></textarea>
+          </div>
+
+          <!-- <input
               id="mensage"
               type="text"
               name="mensaje"
               placeholder="¿Qué necesitas?"
               class="caja4"
-            />
-          </div>
+            /> -->
+
           <input type="submit" class="boton" />
         </form>
       </section>
