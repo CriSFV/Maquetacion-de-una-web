@@ -109,7 +109,7 @@
     height: 200px;
     margin-top: 15px;
     margin-left: 163px;
-    margin-right: 163px;
+    margin-right: 300px;
   }
 
   .form {
@@ -164,6 +164,9 @@
 }
 /*Desktop*/
 @media all and (min-width: 1200px) {
+  .foto-contacto {
+    width: 100%;
+  }
   .pagina {
     display: flex;
     flex-direction: column;
@@ -201,8 +204,8 @@
     align-items: flex-start;
 
     // position: absolute;
-    // top: 665px;
-    // left: 900px;
+    // top: 1280px;
+    // left: 1000px;
     // width: 162px;
     // height: 45px;
   }
