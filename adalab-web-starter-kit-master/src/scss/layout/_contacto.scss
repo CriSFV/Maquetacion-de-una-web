@@ -20,6 +20,7 @@
   font-family: "Open Sans";
   color: grey;
   margin: 15px;
+  padding-left: 15px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -92,6 +93,14 @@
 }
 /*tablet*/
 @media all and (min-width: 768px) {
+  .pagina {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+  }
   .Hcontact {
     padding: 30px, 319.5px, 711px, 321.5px;
   }
@@ -99,15 +108,18 @@
     width: 442px;
     height: 200px;
     margin-top: 15px;
-    text-align: center;
     margin-left: 163px;
     margin-right: 163px;
-    margin-bottom: 50px;
   }
+
   .form {
     margin-bottom: 58px;
     margin-left: 163px;
     margin-right: 163px;
+  }
+  .name {
+    display: flex;
+    flex-direction: column;
   }
   .email {
     display: flex;
@@ -115,6 +127,7 @@
   }
   .tel {
     display: flex;
+    flex-direction: column;
   }
   .menssage {
     margin-right: 163px;
@@ -151,11 +164,18 @@
 }
 /*Desktop*/
 @media all and (min-width: 1200px) {
+  .pagina {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+  }
   .contacto {
     width: 600px;
     height: 200px;
-    margin-left: 450px;
-    margin-right: 300px;
+    margin-left: 400px;
   }
   .form {
     display: flex;
@@ -174,11 +194,17 @@
   }
 
   .tel {
-    position: absolute;
-    top: 657px;
-    left: 900px;
-    width: 162px;
-    height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-items: flex-start;
+
+    // position: absolute;
+    // top: 665px;
+    // left: 900px;
+    // width: 162px;
+    // height: 45px;
   }
   .menssage {
     display: flex;
