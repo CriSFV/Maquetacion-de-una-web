@@ -180,34 +180,26 @@
     height: 200px;
     margin-left: 400px;
   }
-  .form {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
+
   .name {
     margin-left: 300px;
     display: flex;
     flex-direction: column;
   }
+  .left {
+    display: flex;
+    flex-direction: row;
+  }
   .email {
     margin-left: 300px;
+
     display: flex;
     flex-direction: column;
+    float: left;
   }
-
   .tel {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-content: flex-end;
-    align-items: flex-start;
-
-    // position: absolute;
-    // top: 1280px;
-    // left: 1000px;
-    // width: 162px;
-    // height: 45px;
+    position: relative;
+    right: 0px;
   }
   .menssage {
     display: flex;
@@ -224,6 +216,7 @@
   .caja2 {
     width: 395px;
     height: 45px;
+    margin-right: 50px;
   }
   .caja3 {
     height: 45px;
