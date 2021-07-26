@@ -1,6 +1,15 @@
 .arriba {
   background-color: #099d8d;
   height: 90px;
+  width: 100vw;
+  position: fixed;
+  margin: 0;
+  z-index: 5;
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    }
 }
 .lista {
   display: flex;
@@ -10,14 +19,28 @@
   width: 100vw;
   height: 40px;
   transform: translate(0%, 40%);
+  @media (min-width: 768px) {
+    background-color: #099d8d;
+    justify-content: flex-end;
+  }
 }
 .texto-cabecera {
   color: white;
   text-decoration: none;
   list-style: none;
   text-align: center;
+  
 }
 .h1 {
-  vertical-align: middle;
-  padding-top: 1vw;
+  padding-top: 2vh;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 50px;
+  @media (min-width: 768px) {
+    padding-top: 0;
+    line-height: 60px;
+    width: 18em;
+    margin-left: 25px;
+    
+  }
 }
