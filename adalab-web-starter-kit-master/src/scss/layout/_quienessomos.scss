@@ -6,34 +6,62 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-   @media (min-width: 768px) {display: inline;/* margin-left: 44px;margin-right: 44px;*/}
-}
-.art-about-us { @media (min-width: 768px) 
-  {display: flex; flex-direction: column;} }
+   @media (min-width: 768px){ display: flex;}}
+
+.art-about-us,
+.box-art { display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media (min-width: 768px) 
+  {display: flex; display: row;}}
+
+  .box-left { @media (min-width: 768px) 
+    {display: flex;
+      flex-direction: column;
+      align-items: flex-start;}}
+
+
+  .box-right { @media (min-width: 768px) 
+    {display: flex;
+      flex-direction: column;
+      align-items: flex-end;}}
 
 
 .picprof {
   width: 180px;
   height: 180px;
-  text-align: center;
   @media (min-width: 768px) {
   width: 205px;
   height: 205px;}
 }
-.angelapic,
-.sanpic,
-.vevespic { @media (min-width: 768px) {float: left; margin-left: 44px;
-  margin-right: 15px;}}
-.crispic,
-.sheilapic { @media (min-width: 768px) {float: right; margin-right: 45px;margin-left: 45px;}}
 
 .description {
   width: 290px;
   height: 200px;
   text-align: center;
   @media (min-width: 768px) { width: 443px;
-  height: 122px; text-align: start;}
+  height: 122px;}
 }
+.art-cris,
+.art-sheila { display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+   @media (min-width: 768px) {
+  display: flex;
+  flex-direction: row-reverse;
+}}
+.art-veves,
+.art-sandra,
+.art-ang { display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+   @media (min-width: 768px) {
+  display: flex;
+  flex-direction: row;
+}}
 
 .icon {
   color: #099d8d;
@@ -48,7 +76,13 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  /* @media (min-width: 768px) {margin: 15px,auto,30px,auto,}*/
+  @media (min-width: 768px) {
+    icon-left {color: #099D8D;
+      size: 16px;
+      display: flex;
+      justify-content: left;
+      padding-left: 0;}
+  }
 }
 #QuienesSomos {
   font-size: 24px;
