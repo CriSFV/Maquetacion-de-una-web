@@ -2,67 +2,206 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto-Team8</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
   </head>
-
   <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
+    <header class="arriba">
+      <h1 class="texto-cabecera h1">Las Mosqueteras</h1>
+      <nav class="lista">
+        <!-- pdte incluir las id# -->
+        <a href="#equipo" class="texto-cabecera">EQUIPO</a>
+        <a href="#QuienesSomos" class="texto-cabecera">QUIENES SOMOS</a>
+        <a href="./contact.html" class="texto-cabecera">CONTACTO</a>
+      </nav>
+    </header>
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
+    <main>
+      <div class="foto-altavoz">
+        <img
+          src="./assets/images/altavoz-medium.jpg"
+          alt="foto altavoz moderno"
+          class="imagen"
+        />
+      </div>
+      <section>
+        <div class="quote box">
+          <quote>
+            <p>"Haz las cosas con corazón, cree en ti y se curiosa."</p>
+            <p><small>Nathalie Picquot</small></p>
+          </quote>
+        </div>
+      </section>
+
+      <section>
+      <div class="container-central-margin">
+        <article>
+               
+        <h2 id="equipo">Equipo</h2>
         <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
+          Cinco mujeres emprendedoras y entusiastas, de distintas partes del
+          mundo pero con un objetivo común: dar un cambio en sus vidas,
+          luchando por un mismo sueño.
         </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
+      </div> 
+      <div class="triangle"></div>
+      </article>
+      <div class="fondo-fortalezas-debilidades">
+      <article class="articulo primero">
+        <h3 class="titulo-fortalezas-debilidades">Fortalezas</h3>
+        <p>
+          Sabemos que más allá de nuestras diferencias hay mucho que
+          compartimos. Hemos transformado nuestras diferencias en cualidades
+          que aportan, suman y enriquecen el grupo. Hemos creado un equipo
+          equilibrado, con la capacidad de aprender rápido.
+        </p> 
+      </article>
+      <article class="articulo segundo">
+        <h3 class="titulo-fortalezas-debilidades">Debilidades</h3>
 
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
+        <p>
+          Ocasionalmente divagamos y nos abstraemos del foco principal. Nos da
+          miedo dar el primer paso por si nos equivocamos, ya que preferimos
+          ir sobre seguro.
+        </p>
+      </article>
+      </div>
+      </article>
+      </section>
+      <section class="about-us">
 
-          </li>
-        </ul>
-      </main>
+        <h2 id="QuienesSomos">QUIÉNES SOMOS</h2>
+        
+        
+        <article class="art-about-us art-ang" >
 
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
+          <img src="./assets/images/Angela.png" alt="Angela" class="picprof angelapic"/> 
 
-        </small>
-      </footer>
+          <div class="box-art box-left">
 
-    </div>
-    <script src="./assets/js/main.js"></script>
+            <h4>Angela M.</h4>
+            <p class="description">
+              Trabajadora social y mediadora de conflictos.Futura programadora Junior. Gestora del estrés en proceso (gracias a Adalab). Amante de la naturaleza, el deporte, los animales y la comida asiatica.
+            </p>
+            <div class="iconbox icon-left">
+              <a href="https://twitter.com/?lang=en" target="_BLANK"> <i class="fab fa-twitter icon">·</i> </a>
+              <a href="https://www.linkedin.com/login" target="_BLANK"><i class="fab fa-linkedin-in icon">·</i></a>
+              <a href="https://github.com/AMirandaRd" target="_BLANK"><i class="fab fa-github-alt icon">·</i></a>
+              <a href="#"><i class="fas fa-envelope icon"></i></a>
+            </div>
+          </div>
+        </article>
+      </div>
+        
+          <article class="art-about-us art-cris">
+            <img src="../assets/images/Cris.jpg" alt="Cristina" class="picprof crispic"/>
+
+            <div class= "box-art box-right">
+
+              <h4>Cristina Fernández</h4>
+              <p class="description">
+                Gestora de equipos, técnico de RRHH y, gracias a Adalab, futura programadora. Enamorada de la vida y con muchas ganas de aprovechar todo lo que te pueda ofrecer.
+              </p>
+              <div class="iconbox icon-right">
+                <a href="https://twitter.com/?lang=en" target="_BLANK"> <i class="fab fa-twitter icon">·</i> </a>
+                <a href="https://www.linkedin.com/login" target="_BLANK"><i class="fab fa-linkedin-in icon">·</i></a>
+                <a href="https://github.com/CriSFV" target="_BLANK"><i class="fab fa-github-alt icon">·</i></a>
+                <a href="https://outlook.live.com/owa/" target="_BLANK"><i class="fas fa-envelope icon"></i></a>
+              </div>
+            </div>
+          </article>
+        </div>
+        
+          
+        <article class="art-about-us art-sandra">
+          <img src="./assets/images/Sandra.jpg" alt="Sandra" class="picprof sanpic" />
+
+          <div class="box-art box-left">
+            <h4>Sandra Fernández</h4>
+            <p class="description">
+              Traductora, yoguini, formadora, estudiante de la vida y futura
+              programadora. Comprometida con el reto de permanecer atenta momento
+              a momento: he aprendido que ahí es donde la realidad siempre supera
+              la ficción.
+            </p>
+            <div class="iconbox icon-left">
+                <a href="https://twitter.com/?lang=en" target="_BLANK"> <i class="fab fa-twitter icon">·</i> </a>
+                <a href="https://www.linkedin.com/login" target="_BLANK"><i class="fab fa-linkedin-in icon">·</i></a>
+                <a href="https://github.com/SandraFernandz target=_BLANK"><i class="fab fa-github-alt icon">·</i></a>
+                <a href="https://outlook.live.com/owa/" target="_BLANK"><i class="fas fa-envelope icon"></i></a>
+            </div>
+          </div>
+        </article>
+        
+          <article class="art-about-us art-sheila">
+            <img src="./assets/images/Sheila.png" alt="Sheila" class="picprof sheilapic"/>
+            <div class="box-art box-right">
+              <h4>Sheila Arenillas</h4>
+              <p class="description">
+                Desarrolladora Web en proceso, con muchas ganas de seguir formandome
+                en este mundo, apasionada de los animales, de la fotografía, de la
+                música y de la comida.
+              </p>
+              <div class="iconbox icon-right">
+                <a href="https://twitter.com/?lang=en" target="_BLANK"> <i class="fab fa-twitter icon">·</i> </a>
+                <a href="https://www.linkedin.com/login" target="_BLANK"><i class="fab fa-linkedin-in icon">·</i></a>
+                <a href="https://github.com/Sheiilaa" target="_BLANK"><i class="fab fa-github-alt icon">·</i></a>
+                <a href=https://outlook.live.com/owa/" target="_BLANK"><i class="fas fa-envelope icon"></i></a>
+              </div>
+            </div>
+          </article>
+          
+          <article class="art-about-us art-veves">
+          <img src="./assets/images/Veves.jpg" alt="Veves" class="picprof vevespic" />
+            
+          <div class="box-art box-left">
+              <h4>Veves Porlán</h4>
+              <p class="description">
+                Estudiante de Gestión Cultural, me apasiona organizar y gestionar
+                proyectos,en los cuales puedo mostrar mi creatividad. Además soy una
+                personas muy sociable, debido a lo cual trabajo bien en equipo.
+              </p>
+              <div class="iconbox icon-left">
+                <a href="https://twitter.com/?lang=en" target="_BLANK"> <i class="fab fa-twitter icon">·</i> </a>
+                <a href="https://www.linkedin.com/login" target="_BLANK"><i class="fab fa-linkedin-in icon">·</i></a>
+                <a href="https://github.com/veves" target="_BLANK"><i class="fab fa-github-alt icon">·</i></a>
+                <a href="https://outlook.live.com/owa/" target="_BLANK"><i class="fas fa-envelope icon"></i></a>
+              </div>
+            </div>
+          </article>
+        </section>
+
+    </main>
+    <footer class="footer">
+      <div class="copy">las mosqueteras &copy;2021</div>
+      <nav class="footermenu">
+        <a class="footerlink" href="#equipo">Equipo</a>
+        <a class="footerlink" href="#QuienesSomos">Quienes somos</a>
+        <a class="footerlink" href="./contact.html">Contacto</a>
+      </nav>
+      <div class="logo">
+        <img
+          class="adalab"
+          src="./assets/images/logo-adalab.png"
+          alt="Logo adalab"
+        />
+      </div>
+    </footer>
+    <!--  -->
+
   </body>
 </html>
