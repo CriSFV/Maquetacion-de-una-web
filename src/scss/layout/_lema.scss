@@ -31,10 +31,10 @@
   background-color: white;
 }
 
-@media all and (min-width: 768px) and (max-width: 1200px) {
+@media all and (min-width: 768px) {
   .box {
-    /*width: 441px;
-    height: 110px;*/
+    width: 441px;
+    height: 110px;
     margin-left: 45px;
     margin-top: -130px;
     padding: 20px 10px;
