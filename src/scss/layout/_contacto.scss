@@ -99,8 +99,8 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin: auto;
   }
+
   .Hcontact {
     padding: 30px, 319.5px, 711px, 321.5px;
   }
@@ -109,18 +109,17 @@
     height: 200px;
     margin-top: 15px;
     margin-left: 163px;
-    margin-right: 300px;
+    margin-right: 200px;
   }
 
   .form {
-    margin: auto;
     margin-bottom: 58px;
     margin-left: 163px;
-    margin-right: 163px;
   }
   .name {
     display: flex;
     flex-direction: column;
+    width: 442px;
   }
   .email {
     display: flex;
@@ -179,7 +178,21 @@
   .contacto {
     width: 600px;
     height: 200px;
-    margin-left: 400px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .form2 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-right: 750px;
+    width: 601px;
   }
 
   .name {
@@ -187,6 +200,7 @@
     display: flex;
     flex-direction: column;
   }
+
   .left {
     display: flex;
     flex-direction: row;
