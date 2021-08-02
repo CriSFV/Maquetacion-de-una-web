@@ -8,6 +8,9 @@
   @media (min-width: 768px) {
     padding: 0px;
   }
+  @media (min-width: 1200px) {
+    margin: 0px 138px 0px 138px;
+  }
 }
 .footermenu {
   display: flex;
@@ -29,6 +32,7 @@
   line-height: 20px;
   text-decoration: none;
   text-transform: uppercase;
+  padding: 5px;
 }
 .copy {
   color: $color-gris-claro;
