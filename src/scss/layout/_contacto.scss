@@ -6,11 +6,18 @@
   margin-top: 58px;
   margin-left: 97.5px;
   margin-right: 95.5px;
+  &__us {
+    line-height: 24px;
+    margin: 30px 15px 0px 15px;
+    color: $color-gris;
+  }
 }
 .contacto {
+  margin-left: 15px;
   margin-bottom: 58px;
   font-family: $letra-open-sans;
 }
+
 .text {
   margin: 15px;
 }
@@ -111,11 +118,13 @@
     margin-top: 15px;
     margin-left: 163px;
     margin-right: 200px;
+    text-align: center;
   }
 
   .form {
     margin-bottom: 58px;
     margin-left: 163px;
+    margin-top: 58px;
   }
   .name {
     display: flex;
