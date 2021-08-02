@@ -8,13 +8,30 @@
   align-items: center;
    @media (min-width: 768px){ display: flex;}}
 
-.art-about-us,
-.box-art { display: flex;
+.tittle-aboutus{
+  font-size: 24px;
+  color: #099d8d;
+  line-height: 45px;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  line-height: 45px;
+  margin-top: 30px;
+  margin-bottom: 30px;}
+
+.art-about-us
+{ display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 25px;
+  margin-bottom: 20px;
   @media (min-width: 768px) 
   {display: flex; display: row;}}
+
+  .box-art {display:flex;
+  flex-direction: column;
+align-items: center;
+justify-content: center;}
 
   .box-left { @media (min-width: 768px) 
     {display: flex;
@@ -38,10 +55,11 @@
 
 .description {
   width: 290px;
-  height: 200px;
   text-align: center;
   @media (min-width: 768px) { width: 443px;
-  height: 122px;}
+  height: 122px; margin: 45px 0 15px 31px;
+  font-family: OpenSans;
+  font-size: 16px; line-height: 1.5;}
 }
 .art-cris,
 .art-sheila { display: flex;
@@ -72,10 +90,9 @@
 .iconbox {
   width: 124px;
   height: 30px;
-  margin: auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   @media (min-width: 768px) {
     icon-left {color: #099D8D;
       size: 16px;
@@ -84,18 +101,8 @@
       padding-left: 0;}
   }
 }
-#QuienesSomos {
-  font-size: 24px;
-  color: #099d8d;
-  line-height: 45px;
-  text-align: center;
-  font-family: "Rubik", sans-serif;
-  line-height: 45px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
 
-h4 {
+.name-us {
   font-family: "Open Sans";
   font-size: 20px;
   line-height: 45px;
