@@ -69,6 +69,8 @@
 
 .description {
   width: 290px;
+  text-align: center;
+  font-family: $letra-open-sans;
   @media (min-width: 768px) {
     width: 443px;
     font-family: OpenSans;
