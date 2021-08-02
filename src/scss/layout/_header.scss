@@ -11,9 +11,7 @@
     display: flex;
     flex-direction: row;
     height: 60px;
-
-  
-    }
+  }
 }
 .lista {
   background-color: #14d9c4;
@@ -45,15 +43,14 @@
   line-height: 60px;
   padding-top: 0;
   margin: 0%;
-  
+  text-transform: uppercase;
 }
 .h1 {
   padding-top: 2vh;
   text-transform: uppercase;
   font-size: 16px;
   line-height: 50px;
-  
-  
+
   @media (min-width: 768px) {
     padding-top: 0;
     line-height: 60px;
@@ -62,7 +59,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    @media (min-width: 1200px){
+    @media (min-width: 1200px) {
       font-size: 18px;
       margin-left: 140px;
     }
