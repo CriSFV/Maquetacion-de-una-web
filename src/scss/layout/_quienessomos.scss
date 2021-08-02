@@ -47,6 +47,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-left: 30px;
   }
 }
 
@@ -55,8 +56,10 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    margin-right: 30px;
   }
 }
+
 
 .picprof {
   width: 180px;
@@ -73,9 +76,14 @@
   font-family: $letra-open-sans;
   @media (min-width: 768px) {
     width: 443px;
-    font-family: OpenSans;
     font-size: 16px;
     line-height: 1.5;
+    text-align: left;
+  }
+}
+.desc-right {
+  @media (min-width:768px){ 
+    text-align: right;
   }
 }
 .art-cris,
