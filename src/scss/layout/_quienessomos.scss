@@ -6,9 +6,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-   @media (min-width: 768px){ display: flex;}}
+  @media (min-width: 768px) {
+    display: flex;
+  }
+}
 
-.tittle-aboutus{
+.tittle-aboutus {
   font-size: 24px;
   color: #099d8d;
   line-height: 45px;
@@ -16,70 +19,86 @@
   font-family: "Rubik", sans-serif;
   line-height: 45px;
   margin-top: 30px;
-  margin-bottom: 30px;}
+  margin-bottom: 30px;
+}
 
-.art-about-us
-{ display: flex;
+.art-about-us {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 25px;
   margin-bottom: 20px;
-  @media (min-width: 768px) 
-  {display: flex; display: row;}}
+  @media (min-width: 768px) {
+    display: flex;
+    display: row;
+  }
+}
 
-  .box-art {display:flex;
+.box-art {
+  display: flex;
   flex-direction: column;
-align-items: center;
-justify-content: center;}
+  align-items: center;
+  justify-content: center;
+}
 
-  .box-left { @media (min-width: 768px) 
-    {display: flex;
-      flex-direction: column;
-      align-items: flex-start;}}
+.box-left {
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
 
-
-  .box-right { @media (min-width: 768px) 
-    {display: flex;
-      flex-direction: column;
-      align-items: flex-end;}}
-
+.box-right {
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
 
 .picprof {
   width: 180px;
   height: 180px;
   @media (min-width: 768px) {
-  width: 205px;
-  height: 205px;}
+    width: 205px;
+    height: 205px;
+  }
 }
 
 .description {
   width: 290px;
-  text-align: center;
-  @media (min-width: 768px) { width: 443px;
-  height: 122px; margin: 45px 0 15px 31px;
-  font-family: OpenSans;
-  font-size: 16px; line-height: 1.5;}
+  @media (min-width: 768px) {
+    width: 443px;
+    font-family: OpenSans;
+    font-size: 16px;
+    line-height: 1.5;
+  }
 }
 .art-cris,
-.art-sheila { display: flex;
+.art-sheila {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-   @media (min-width: 768px) {
-  display: flex;
-  flex-direction: row-reverse;
-}}
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
 .art-veves,
 .art-sandra,
-.art-ang { display: flex;
+.art-ang {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-   @media (min-width: 768px) {
-  display: flex;
-  flex-direction: row;
-}}
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+  }
+}
 
 .icon {
   color: #099d8d;
@@ -91,14 +110,17 @@ justify-content: center;}
   width: 124px;
   height: 30px;
   display: flex;
+  margin-top: 15px;
   flex-direction: row;
   justify-content: space-around;
   @media (min-width: 768px) {
-    icon-left {color: #099D8D;
+    icon-left {
+      color: #099d8d;
       size: 16px;
       display: flex;
       justify-content: left;
-      padding-left: 0;}
+      padding-left: 0;
+    }
   }
 }
 
