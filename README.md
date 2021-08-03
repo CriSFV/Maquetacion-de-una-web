@@ -1,9 +1,9 @@
 # LAS MOSQUETERAS
 
 
-## La página de las mosqueteras ha sido creada con dos principales objetivos: darnos a conocer en el mundo digital y poner en práctica los conocimientos adquiridos en estas tres semanas de curso.
+La página de las mosqueteras ha sido creada con dos principales objetivos: darnos a conocer en el mundo digital y poner en práctica los conocimientos adquiridos en estas tres semanas de curso.
 
-### Este proyecto ha sido maquetado con HTML y diseñado con CSS a través del procesador SASS.
+ Este proyecto ha sido maquetado con HTML y diseñado con CSS a través del procesador SASS.
 
 #### Header
 El header consta de dos elementos: el nombre de equipo y un "nav". Así hemos podido aplicar flex y ubicar dichos elementos como fuera necesario: el columna en versión móvil y fila para las otras dos. Al ubicarlo con position:fixed se ha conseguido que se mantenga en pantalla en todo momento, independientemente de la sección en que se esté.
