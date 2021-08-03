@@ -3,13 +3,13 @@
 
 La página de las mosqueteras ha sido creada con dos principales objetivos: darnos a conocer en el mundo digital y poner en práctica los conocimientos adquiridos en estas tres semanas de curso.
 
- Este proyecto ha sido maquetado con HTML y diseñado con CSS a través del procesador SASS.
+ Este proyecto ha sido maquetado con <i class="fab fa-html5"></i> y diseñado con CSS a través del procesador <i class="fab fa-sass"></i>.
 
  Para ver la parte del maquetado en HTML solo debes seguir esta ruta: **_project-promo-n-module-1-team-8/src/html/partials/_**
  Donde encontrarás las diferentes secciones de nuestro poyecto y podrás curiosear en nuestro código!! Además podrás ver como hemos diseñado nuestra página siguiendo la ruta **_project-promo-n-module-1-team-8/src/scss/layout/_**
 
- Para visualizar nuestra página solo hay que hacer click en el enlace que se muestra a la derecha del repositorio (**_About
-http://beta.adalab.es/project-promo-n-module-1-team-8/_**)
+ Para visualizar nuestra página solo hay que hacer click en el enlace que se muestra a la derecha del repositorio (About
+http://beta.adalab.es/project-promo-n-module-1-team-8/
 
 
 #### Header 
