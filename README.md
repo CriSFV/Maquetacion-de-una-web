@@ -5,7 +5,14 @@ La página de las mosqueteras ha sido creada con dos principales objetivos: darn
 
  Este proyecto ha sido maquetado con HTML y diseñado con CSS a través del procesador SASS.
 
-#### Header
+ Para ver la parte del maquetado en HTML solo debes seguir esta ruta: **_project-promo-n-module-1-team-8/src/html/partials/_**
+ Donde encontrarás las diferentes secciones de nuestro poyecto y podrás curiosear en nuestro código!! Además podrás ver como hemos diseñado nuestra página siguiendo la ruta **_project-promo-n-module-1-team-8/src/scss/layout/_**
+
+ Para visualizar nuestra página solo hay que hacer click en el enlace que se muestra a la derecha del repositorio (**_About
+http://beta.adalab.es/project-promo-n-module-1-team-8/_**)
+
+
+#### Header 
 El header consta de dos elementos: el nombre de equipo y un "nav". Así hemos podido aplicar flex y ubicar dichos elementos como fuera necesario: el columna en versión móvil y fila para las otras dos. Al ubicarlo con position:fixed se ha conseguido que se mantenga en pantalla en todo momento, independientemente de la sección en que se esté.
 
 #### Equipo
@@ -21,6 +28,6 @@ En todas las versiones hemos utilizado un display flex para distribuir los tres 
 #### Página de contacto
 Para la página de contacto hemos decidido dividirlo en dos partes, la primera seria la parte del título y de un breve texto y en la segunda tendriamos ya la parte del formulario, el cual se divide en cuatro divisiones y un botón. Esta parte hemos decidido darle estilos con flex; en la parte de movil y tablet le hemos dado una dirección column, para así poder conseguir el efecto de cada elemento encima del otro, en cambio en la versión ordenador, nos encontramos con un pequeño inconveniente ya que  la división del teléfono tenía que estar al lado del email, para poder solventar este problema le dimos un flex pero en este caso row y asi conseguimos el diseño deseado.
 
-**Nos gustaría agradecer a los profesores de Adalab y product owner por su gran trabajo,apoyo y paciencia a la hora de de orientarnos y ayudarnos con este proyecto ya que sin ellos nada de esto habría sido posible.**
+**Nos gustaría agradecer y dar la enhorabuena a los profesores de Adalab y product owner por su gran trabajo,apoyo y paciencia a la hora de de orientarnos y ayudarnos con este proyecto ya que sin ellos nada de esto habría sido posible.**
 
 
