@@ -14,7 +14,16 @@
 </head>
 
 <body>
-  <include src="./partials/header.html"></include>
+  <header class="arriba">
+  <h1 class="h1"><a class="texto-cabecera" href="./index.html">Las mosqueteras</a></h1>
+    <nav class="lista">
+      <!-- pdte incluir las id# -->
+      <a href="./index.html#equipo" class="texto-cabecera">equipo</a>
+      <a href="./index.html#QuienesSomos" class="texto-cabecera">quienes somos</a>
+      <a href="./contact.html" class="texto-cabecera">contacto</a>
+    </nav>
+  </header>
+
   <main class="pagina">
     <div class="foto-contacto">
       <img src="./assets/images/contacto2.jpeg" alt="foto contacto" class="foto-contacto" />
@@ -64,7 +73,26 @@
       </form>
     </section>
   </main>
-  <include src="./partials/footer.html"></include>
+  <footer class="footer">
+    <div class="copy">las mosqueteras &copy;2021</div>
+    <nav class="footermenu">
+      <a class="footerlink" href="./index.html#equipo">Equipo</a>
+      <a class="footerlink" href="./index.html#QuienesSomos">Quienes somos</a>
+      <a class="footerlink" href="./contact.html">Contacto</a>
+    </nav>
+    <div class="logo">
+      <a href="https://adalab.es/" target="_BLANK">
+        <img
+          class="adalab"
+          src="./assets/images/logo-adalab.png"
+          alt="Logo adalab"
+          title="Ir a Adalab"
+        />
+      </a>
+    </div>
+  </footer>
+  <!--  -->
+
 </body>
 
 </html>
